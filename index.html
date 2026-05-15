@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System | Fahril PROJECT</title>
+    <meta name="author" content="Fahril PROJECT - Professional Developer">
+    <meta name="description" content="Sistem Absensi canggih dan modern dikembangkan oleh Fahril PROJECT">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #ffffff;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            color: #ffd700;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 3px;
+            background: linear-gradient(90deg, #ffd700, #ffb700);
+            border-radius: 3px;
+        }
+
+        nav {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-left: 4px solid #ffd700;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 12px 24px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        nav ul li a:hover {
+            background: #ffd700;
+            color: #000000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+            border-color: #ffd700;
+        }
+
+        .dev-badge {
+            background: linear-gradient(135deg, #ffd700, #ffb700);
+            color: #000;
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            font-size: 14px;
+            color: #bbbbbb;
+        }
+
+        footer strong {
+            color: #ffd700;
+            font-size: 15px;
+        }
+
+        /* Efek responsif untuk HP */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Lencana Pengembang -->
+        <div class="dev-badge">
+            ⚡ DIKEMBANGKAN OLEH: FAHRIL PROJECT ⚡
+        </div>
+
+        <!-- Judul Sistem -->
+        <h1>Attendance System</h1>
+
+        <!-- Menu Navigasi -->
+        <nav>
+            <ul>
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">⚙️ Features</a></li>
+                <li><a href="#">🎯 Mission & Vision</a></li>
+                <li><a href="#">📞 Contact</a></li>
+                <li><a href="#">🔐 Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- Bagian Bawah / Footer -->
+        <footer>
+            <p>© 2026 <strong>Fahril PROJECT</strong> | All Rights Reserved</p>
+            <p style="margin-top: 8px;">Didesain & Dikembangkan Sepenuhnya oleh: <strong>Fahril</strong> - Web Developer & System Engineer</p>
+            <p style="margin-top: 5px; font-size: 12px; color: #888;">* Sistem Absensi Canggih Versi 2.0</p>
+        </footer>
+    </div>
+
+</body>
+</html>
